@@ -1,0 +1,36 @@
+*node = node(state,parent,action)
+ex: 
+node_1 = Node("Emma Watson", None, None)
+node_2 = Node("Brendan Gleeson", node_1, "Harry Potter")
+node_3 = Node("Michael Fassbender", node_2, "Trespass Against Us")
+node_4 = Node("Jennifer Lawrence", node_3, "X-Men: First Class")
+
+node is each milestone of our search...
+
+
+*Depth-First Search -stack
+A depth-first search algorithm exhausts each one direction before trying another direction
+last-in first-out
+
+
+*Breadth-First Search -queue
+
+
+in short
+frontier->frontier.frontier->frontier.frontier.frontier this is DFS 
+frontier->frontier[1]->frontier[2]->many others later-> frontier.[1].frontier[1] that one is BFS
+
+
+*Gready Best-First Search -heuristic function h(n)
+The efficiency of the greedy best-first algorithm depends on how good the heuristic function is
+The Manhattan distance ignores walls and counts how many steps up, down, or to the sides it would take to get from one location to the goal location.
+
+A* Search -developed version of GBFS
+combination of h(n) and g(n)...
+
+Minimax
+minimizing side trying to get the lowest score, and the maximizer trying to get the highest score.
+
+
+
+
