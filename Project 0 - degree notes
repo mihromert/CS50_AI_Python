@@ -1,0 +1,11 @@
+Node->state, parent, action
+state (where we are)-current actor, parent(where we are coming from)-previous actor, action(from which way we arrived here)-films
+
+path.reverse() #putting things in order
+we should use this line to avoid outputs like this:
+Name: morgan freeman
+Name: emma watson
+2 degrees of separation.
+1: Morgan Freeman and Emma Watson starred in The Tale of Despereaux
+2: Emma Watson and Dustin Hoffman starred in Outbreak
+
