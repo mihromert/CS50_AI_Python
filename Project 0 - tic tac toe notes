@@ -1,0 +1,15 @@
+Minimax:
+
+winning condition = -1 and 1
+minimizing side = trying to get the lowest score.
+maximizer side = trying to get the highest score.
+
+we have:
+S0 = initial state
+players = a function that gives X or O
+actions = a function that returns all the legal move in the state
+result = a function that returns a new state that resulted from action a and state s (a,s are inputs..)
+terminals = a function that checks whether this is the last step in the game, tie or someone won
+returns True if the game has ended, False otherwise.
+utility = a function that returns the utility value of the state : -1,0 or 1
+
