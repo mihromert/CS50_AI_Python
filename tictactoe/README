@@ -1,0 +1,7 @@
+# Tic Tac Toe AI (CS50 AI with Python)
+This project implements a Tic Tac Toe game where the AI uses the **minimax algorithm** to play optimally.  
+Developed as part of the **CS50 AI with Python** course by HarvardX.
+
+## How to Run
+```bash
+python runner.py
