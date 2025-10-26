@@ -5,3 +5,4 @@ Developed as part of the **CS50 AI with Python** course by HarvardX.
 ## How to Run
 ```bash
 python runner.py
+with al least python 3.12 and pygame module
